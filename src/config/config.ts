@@ -1,5 +1,7 @@
+interface IConfig {
+    port: string
+}
 
-
-export const config = {
-    port:process.env.PORT || "4500";
+export const config: IConfig = {
+    port: process.env.PORT || "4500"
 }
